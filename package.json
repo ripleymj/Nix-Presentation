@@ -1,0 +1,18 @@
+{
+  "name": "nix-presentation",
+  "version": "1.0.0",
+  "description": "My Unix Users Group presentation about Nix/NixOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@100.78.212.35:30009/Eclypsed/Nix-Presentation.git"
+  },
+  "author": "Eclypse",
+  "license": "ISC",
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  }
+}
