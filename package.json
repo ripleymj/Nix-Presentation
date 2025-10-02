@@ -1,18 +1,15 @@
 {
   "name": "nix-presentation",
-  "version": "1.0.0",
-  "description": "My Unix Users Group presentation about Nix/NixOS",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@100.78.212.35:30009/Eclypsed/Nix-Presentation.git"
-  },
-  "author": "Eclypse",
-  "license": "ISC",
-  "dependencies": {
-    "reveal.js": "^5.2.1"
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
   }
 }
