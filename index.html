@@ -1,13 +1,98 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nix-presentation</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css" />
+        <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css" />
+        <link rel="stylesheet" href="/node_modules/reveal.js/plugin/highlight/monokai.css" />
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>Nick's guide to Nix</section>
+                <section data-auto-animate>
+                    <pre
+                        data-id="code-animation"
+                    ><code data-trim data-line-numbers class="language-nix">
+						{
+							description = "System configuration";
+						}
+                    </code></pre>
+                </section>
+                <section data-auto-animate>
+                    <pre
+                        data-id="code-animation"
+                    ><code data-trim data-line-numbers class="language-nix">
+						{
+							description = "System configuration";
+							
+							inputs = {
+
+							};
+
+							outputs = { ... }: {
+
+							};
+						}
+                  </code></pre>
+                </section>
+                <section data-auto-animate>
+                    <pre
+                        data-id="code-animation"
+                    ><code data-trim data-line-numbers class="language-nix">
+						{
+							description = "System configuration";
+							
+							inputs = {
+								nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+							};
+
+							outputs = { ... }: {
+
+							};
+						}
+          			</code></pre>
+                </section>
+                <section data-auto-animate>
+                    <pre
+                        data-id="code-animation"
+                    ><code data-trim data-line-numbers class="language-nix">
+						{
+							description = "System configuration";
+							
+							inputs = {
+								nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+							};
+
+							outputs = { nixpkgs, ... }@inputs: {
+							
+							};
+						}
+          			</code></pre>
+                </section>
+                <section data-auto-animate>
+                    <pre
+                        data-id="code-animation"
+                    ><code data-trim data-line-numbers class="language-nix">
+						{
+							description = "System configuration";
+							
+							inputs = {
+								nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+							};
+
+							outputs = { nixpkgs, ... }@inputs: {
+								nixosConfigurations.my-nixos-system = nixpkgs.lib.nixosSystem {
+									system = "x86_64-linux";
+									modules = [
+									
+									];
+								};
+							};
+						}
+          			</code></pre>
+                </section>
+            </div>
+        </div>
+        <script type="module" src="src/main.ts"></script>
+    </body>
 </html>
