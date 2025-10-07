@@ -1,9 +1,9 @@
-import Reveal from 'reveal.js'
-import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js'
-import RevealHighlight from 'reveal.js/plugin/highlight/highlight.esm.js'
+import { mount } from 'svelte'
+import App from './App.svelte'
+import './app.css'
 
-let deck = new Reveal({
-    plugins: [Markdown, RevealHighlight],
+const app = mount(App, {
+    target: document.getElementById('app')!,
 })
 
-deck.initialize()
+export default app

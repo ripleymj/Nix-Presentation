@@ -1,6 +1,6 @@
 import csv
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 # Load your HTML (replace this with reading from a file or requests.get().text)
 with open("packages_table.html", "r", encoding="utf-8") as f:
@@ -19,11 +19,16 @@ for tr in soup.select("tbody > tr"):
     td_tags = tr.select("td")
     if len(td_tags) >= 2:
 
-        def extract_value(td):
+        def extract_value(td: Tag) -> str:
             span = td.select_one("span")
             if span:
                 # Prefer title attribute, else text content
-                return span.get("title") or span.get_text(strip=True)
+                title = span.get("title")
+                if title is None:
+                    title = span.get_text(strip=True)
+                elif type(title) is not str:
+                    title = title[0]
+                return title
             # Sometimes there's no <span>, just text inside <a> or <td>
             return td.get_text(strip=True)
 
