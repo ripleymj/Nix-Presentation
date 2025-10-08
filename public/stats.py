@@ -1,21 +1,46 @@
 import csv
+import math
+import random
 
+import requests
 from bs4 import BeautifulSoup, Tag
 
-# Load your HTML (replace this with reading from a file or requests.get().text)
-with open("packages_table.html", "r", encoding="utf-8") as f:
-    html = f.read()
 
-soup = BeautifulSoup(html, "html.parser")
+def repo_color(name: str) -> str:
+    lower_name = name.lower()
+    if lower_name.startswith("ubuntu"):
+        return "#e95420"
+    if lower_name.startswith("nixpkgs"):
+        return "#4f73bd"
+    if lower_name.startswith("debian"):
+        return "#d80150"
+    if lower_name.startswith("alpine"):
+        return "#0d597f"
+    if lower_name.startswith("fedora"):
+        return "#294072"
+    if lower_name.startswith("aur"):
+        return "#1793d1"
 
-rows: list[tuple[str, str, str]] = []
+    return f"#{math.floor(random.random() * 0xFFFFFF):06x}"
+
+
+URL = "https://repology.org/repositories/packages"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0"
+}
+response = requests.get(URL, headers=HEADERS)
+response.raise_for_status()
+
+soup = BeautifulSoup(response.text, "html.parser")
+
+rows: list[tuple[str, str, str, str]] = []
 
 for tr in soup.select("tbody > tr"):
-    # 1️⃣ First column: repo name
+    # First column: repo name
     name_tag = tr.select_one("th a")
     name = name_tag.get_text(strip=True) if name_tag else ""
 
-    # 2️⃣ Second and third columns: prefer span[title], fall back to span text
+    # Second and third columns: prefer span[title], fall back to span text
     td_tags = tr.select("td")
     if len(td_tags) >= 2:
 
@@ -37,12 +62,14 @@ for tr in soup.select("tbody > tr"):
     else:
         packages = fresh_packages = ""
 
-    rows.append((name, packages, fresh_packages))
+    color = repo_color(name)
+
+    rows.append((name, color, packages, fresh_packages))
 
 # Write to CSV
 with open("packages.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
-    writer.writerow(["Name", "Packages", "Fresh Packages"])
+    writer.writerow(["name", "color", "packages", "freshPackages"])
     writer.writerows(rows)
 
 print("✅ Extracted", len(rows), "rows into packages.csv")

@@ -1,310 +1,310 @@
-Name,Packages,Fresh Packages
-Adélie Linux current,8243,2091
-AIX Open Source Packages,8065,260
-AIX Toolbox,644,116
-AlmaLinux 8,5986,750
-AlmaLinux 9,3034,655
-Alpine Linux 3.15,15848,2873
-Alpine Linux 3.16,17032,3179
-Alpine Linux 3.17,17811,3675
-Alpine Linux 3.18,20062,4597
-Alpine Linux 3.19,23027,5654
-Alpine Linux 3.20,24163,6561
-Alpine Linux 3.21,25389,8133
-Alpine Linux 3.22,26312,11533
-Alpine Linux Edge,34749,22634
-ALT Linux p9,18262,4531
-ALT Linux p10,19057,5321
-ALT Linux p11,19794,7204
-ALT Sisyphus,20700,10196
-Amazon Linux 1,3448,298
-Amazon Linux 2,7253,717
-AOSC,5749,2188
-Apertis v2023,5612,1131
-Apertis v2024,5976,1296
-Apertis v2025,5981,1297
-Apertis v2026 Development,6825,2581
-Arch Linux,15099,11591
-Arch Testing,307,222
-Arch Linux ARM aarch64,21174,11004
-ArchPOWER powerpc,5417,2531
-ArchPOWER powerpc64le,5650,2559
-ArchPOWER riscv64,5330,2169
-AUR,100544,28117
-Artix,8904,5688
-Artix Testing,163,129
-BackBox 6,19,3
-BackBox 7,26,8
-Baulk,71,50
-BioArch,5251,4631
-BlackArch,5578,1420
-Calculate,88,9
-Carbs Linux,347,99
-CentOS 6,2399,316
-CentOS 7,3541,493
-CentOS 8,3380,535
-CentOS Stream 8,9841,794
-CentOS Stream 9,6029,929
-CentOS Stream 10,6072,1967
-Chimera Linux,11338,7594
-Chocolatey,4042,1552
-Chromebrew,2458,1118
-ConanCenter,5821,736
-CPAN,9696,9519
-MetaCPAN,11349,9211
-CRAN,22832,22445
-crates.io,4978,4670
-CRUX 3.6,2070,451
-CRUX 3.7,2374,1220
-CRUX 3.8,2402,2143
-Cygwin,11520,3674
-Deb Multimedia Unstable,438,316
-Debian 11,32129,7992
-Debian 12,35113,10168
-Debian 12 Backports,1018,173
-Debian 12 Backports sloppy,4,2
-Debian 13,38138,16317
-Debian 13 Backports,129,65
-Debian 14,38390,18950
-Debian Unstable,40247,19811
-Debian Experimental,1180,354
-deepin 20,29950,6345
-deepin 23,11181,2840
-Devuan 4.0,31290,7955
-Devuan Unstable,39510,19710
-distri,541,31
-ELRepo el8,190,5
-ELRepo el8 Testing,11,0
-ELRepo el9,174,6
-ELRepo el9 Testing,15,0
-Endless OS 4.0,116,3
-Endless OS master,100,6
-EPEL 6,5978,1002
-EPEL 7,7303,1593
-EPEL 8,5210,1659
-EPEL 9,7974,3440
-EPEL 10,6262,3679
-EuroLinux 8,8070,678
-EuroLinux 9,7422,888
-Exherbo,8605,3637
-F-Droid,10973,379
-Fedora 37,29763,8271
-Fedora 38,30232,8926
-Fedora 39,29890,9699
-Fedora 40,31164,11094
-Fedora 41,30595,12992
-Fedora 42,29193,14406
-Fedora Rawhide,23805,15722
-FreeBSD Ports,37153,22108
-Gentoo,29958,10960
-Gentoo overlay GURU,3023,971
-Gentoo overlay Pentoo,1160,323
-Gentoo Science overlay,745,166
-glaucus,119,31
-GNU Elpa,478,465
-GNU Guix,29927,9074
-GoboLinux,3775,840
-Hackage,18316,18219
-HaikuPorts master,3893,1107
-Homebrew,11881,6386
-Homebrew Casks,2242,1657
-Homebrew tap Brewsci/bio,318,94
-HP-UX 11.31,2259,527
-IBM i,315,30
-IzzyOnDroid,2554,366
-Kali Linux Bleeding Edge,84,2
-Kali Linux Rolling,38755,18712
-KaOS,2116,1763
-KaOS Build,44,38
-KDE neon Testing,929,18
-KDE neon Unstable,980,19
-KDE neon User,1992,36
-KDE neon User LTS,541,23
-KISS Community - main,152,128
-KISS Community - community,394,147
-Libregamewiki,651,249
-LiGurOS stable,32494,10419
-LiGurOS develop,32521,11861
-LuaRocks,7457,573
-MacPorts,38061,16613
-Mageia 8,17033,3349
-Mageia 9,17504,4265
-Mageia cauldron,16944,8196
-Manjaro Stable,15827,10594
-Manjaro Testing,15847,11496
-Manjaro Unstable,15865,11887
-MELPA,5962,0
-MELPA Stable,3234,3179
-MidnightBSD mports,7141,2761
-MPR,926,166
-MSYS2 clang64,3450,2434
-MSYS2 clangarm64,3363,2407
-MSYS2 mingw,3989,2837
-MSYS2 msys2,748,518
-MSYS2 ucrt64,3534,2490
-MX Linux MX-21,708,67
-MX Linux MX-21 Testing,546,66
-MX Linux MX-23,449,68
-MX Linux MX-23 Testing,363,71
-nixpkgs stable 22.11,95572,32675
-nixpkgs stable 23.05,99994,35717
-nixpkgs stable 23.11,107004,40861
-nixpkgs stable 24.05,114973,48855
-nixpkgs stable 24.11,120736,53957
-nixpkgs stable 25.05,128147,64601
-nixpkgs unstable,130313,83168
-NOIR Linux Main,243,59
-Npackd Stable,13040,186
-Npackd Stable64,7742,82
-Npackd Unstable,96,0
-opam,1191,962
-OpenBSD Ports,12177,6940
-openEuler 20.03-LTS-SP3,3382,725
-openEuler 20.03-LTS-SP4,3418,735
-openEuler 22.03-LTS,4234,1066
-openEuler 22.03-LTS-SP1,4266,1181
-openEuler 22.03-LTS-SP2,4275,1188
-openEuler 22.03-LTS-SP3,4307,1219
-openEuler 22.03-LTS-SP4,4320,1221
-openEuler 23.03,4294,1242
-openEuler 23.09,4617,1434
-openEuler 24.03-LTS,4876,1750
-openEuler 24.03-LTS-SP1,4905,1753
-openEuler 24.09,4880,1912
-openEuler 25.03,4990,2238
-OpenIndiana packages,6052,4060
-openmamba,5951,4625
-OpenMandriva 4.3,12605,3228
-OpenMandriva 5.0,15311,3332
-OpenMandriva 6.0,16177,4649
-OpenMandriva Rolling,16176,4647
-OpenMandriva Cooker,16059,5829
-OpenPKG,2386,695
-openSUSE Leap 15.4,19608,3511
-openSUSE Leap 15.5,20732,4214
-openSUSE Leap 15.6,20362,4658
-openSUSE Tumbleweed,16640,9861
-openSUSE Education Tumbleweed,380,130
-openSUSE Emulators Tumbleweed,143,55
-openSUSE games Tumbleweed,934,509
-openSUSE graphics Tumbleweed,317,170
-openSUSE hardware:sdr Tumbleweed,181,71
-openSUSE multimedia:apps Tumbleweed,386,219
-openSUSE multimedia:libs Tumbleweed,348,235
-openSUSE network Tumbleweed,266,141
-openSUSE science Tumbleweed,1150,485
-openSUSE security Tumbleweed,295,157
-openSUSE server:irc Tumbleweed,43,27
-openSUSE shells Tumbleweed,45,15
-Open VSX,352,295
-OpenWrt 23.05 x86_64,8976,908
-OpenWrt 24.10 x86_64,9433,1180
-OS4Depot,946,280
-PackMan openSUSE Tumbleweed,641,266
-PackMan SLE 12,259,66
-PackMan SLE 15,80,29
-pacstall,864,204
-Parabola,15519,11074
-Parabola Testing,29,4
-Pardus 21,32630,8009
-Pardus 23,365,15
-Parrot,70726,20592
-PCLinuxOS,12198,3098
-Pisi Linux,3400,1566
-Pisi Linux Contrib,138,27
-pkgsrc current,20099,11165
-PLD Linux,14171,5713
-postmarketOS 22.12,436,10
-postmarketOS 23.06,434,12
-postmarketOS 23.12,487,8
-postmarketOS 24.06,1189,17
-postmarketOS 24.12,1247,22
-postmarketOS master,1583,56
-PTXdist,956,285
-PureOS amber,28585,6322
-PureOS byzantium,30901,7897
-PureOS landing,37686,16203
-PyPI,27537,19657
-Raspbian Oldstable,35274,8814
-Raspbian Stable,39331,11189
-Raspbian Testing,43680,17717
-Ravenports,3728,3051
-ReactOS rapps,198,58
-RebornOS,422,69
-Rocky Linux 8,4991,659
-Rocky Linux 9,3394,727
-Rosa 2021.1,20016,5406
-Rosa 13,21087,7584
-RPM Fusion EL 6,74,15
-RPM Fusion EL 7,142,24
-RPM Fusion EL 8,119,23
-RPM Fusion EL 9,68,11
-RPM Fusion Fedora 39,451,110
-RPM Fusion Fedora 40,437,121
-RPM Fusion Fedora 41,439,165
-RPM Fusion Fedora Rawhide,307,170
-RPM Sphere,2874,1079
-RubyGems,4443,4191
-SageMath stable,372,116
-SageMath development,370,129
-Salix 14.2,735,52
-Scientific Linux 7.x,12293,1110
-Software Collections,416,41
-Scoop,4469,2540
-Side Linux,951,680
-Siduction,580,4
-Siduction Experimental,30,0
-SlackBuilds,9959,4446
-Slackware 14.2,1599,308
-Slackware 15.0,1923,350
-Slackware current,1816,1077
-Slackware64 14.2,1586,306
-Slackware64 15.0,1887,347
-Slackware64 current,1815,1074
-Slackwarearm 14.2,1578,295
-Slackwarearm 15.0,1814,341
-SliTaz Cooking,5922,1649
-SliTaz Current,1863,243
-SliTaz Next,12181,1977
-Solus,11646,5954
-Spack,9685,2920
-Stackage LTS Haskell,3411,3248
-Stackage Nightly,3262,3212
-stal/IX,1380,1188
-stal/IX dev,1381,1194
-T2 SDE,6175,5160
-Tails stable,3,1
-Tails devel,3,1
-Termux,2674,2097
-Termux User Repository,297,127
-Terra 39,2351,413
-Terra 40,2865,894
-Terra 41,3221,1484
-Terra rawhide,3395,1645
-Tin Can Linux,81,42
-Trisquel 10.0,32930,7062
-Trisquel 10.0 backports,82,10
-Trisquel 11.0,36144,8844
-Trisquel 11.0 backports,64,7
-UBI 8,1623,157
-Ubuntu 14.04,24127,3793
-Ubuntu 14.04 Backports,109,2
-Ubuntu 16.04,27276,4738
-Ubuntu 16.04 Backports,25,0
-Ubuntu 18.04,30870,5904
-Ubuntu 18.04 Backports,18,0
-Ubuntu 20.04,32759,7096
-Ubuntu 20.04 Backports,21,1
-Ubuntu 22.04,36182,8883
-Ubuntu 22.04 Backports,21,1
-Ubuntu 24.04,38934,11974
-Ubuntu 24.04 Backports,18,1
-Ubuntu 25.04,39935,15714
-Ubuntu 25.04 Backports,3,0
-Ubuntu 25.10,39745,17706
-Ubuntu 25.10 Proposed,273,90
-Vcpkg,2696,1217
-Void Linux x86_64,14331,7324
-WakeMeOps,3981,153
-Wikidata,5553,3039
-YACP,3724,2215
+name,color,packages,freshPackages
+AdÃ©lie Linux current,#27f676,8243,2091
+AIX Open Source Packages,#e1d77b,8065,260
+AIX Toolbox,#6b0b92,644,116
+AlmaLinux 8,#e7b63a,5986,750
+AlmaLinux 9,#3a17d8,3034,655
+Alpine Linux 3.15,#0d597f,15848,2873
+Alpine Linux 3.16,#0d597f,17032,3179
+Alpine Linux 3.17,#0d597f,17811,3695
+Alpine Linux 3.18,#0d597f,20062,4617
+Alpine Linux 3.19,#0d597f,23027,5677
+Alpine Linux 3.20,#0d597f,24163,6582
+Alpine Linux 3.21,#0d597f,25389,8154
+Alpine Linux 3.22,#0d597f,26312,11521
+Alpine Linux Edge,#0d597f,34749,22568
+ALT Linux p9,#7bdee9,18262,4531
+ALT Linux p10,#e35430,19057,5322
+ALT Linux p11,#cf81dd,19795,7204
+ALT Sisyphus,#115799,20700,10202
+Amazon Linux 1,#2f2558,3448,298
+Amazon Linux 2,#234b7a,7255,717
+AOSC,#0af098,5749,2184
+Apertis v2023,#4205cd,5612,1131
+Apertis v2024,#b1b089,5977,1297
+Apertis v2025,#d9ba1d,5981,1298
+Apertis v2026 Development,#9bc337,6825,2581
+Arch Linux,#02ba84,15099,11588
+Arch Testing,#bf6e11,263,194
+Arch Linux ARM aarch64,#3ca5dc,21174,10946
+ArchPOWER powerpc,#7beb18,5417,2529
+ArchPOWER powerpc64le,#dd275f,5650,2558
+ArchPOWER riscv64,#16ece5,5330,2169
+AUR,#1793d1,100533,28097
+Artix,#f0c1fa,8904,5643
+Artix Testing,#7fa3b3,163,116
+BackBox 6,#9997c4,19,2
+BackBox 7,#02b384,26,7
+Baulk,#16e637,71,48
+BioArch,#7b8a5b,5251,4629
+BlackArch,#0a499c,5578,1418
+Calculate,#45ee36,88,9
+Carbs Linux,#7557f4,347,100
+CentOS 6,#b53b07,2399,316
+CentOS 7,#227ce7,3541,493
+CentOS 8,#f44498,3380,535
+CentOS Stream 8,#33d093,9841,794
+CentOS Stream 9,#0ee97e,6029,929
+CentOS Stream 10,#0f0726,6072,1968
+Chimera Linux,#545112,11344,7591
+Chocolatey,#848169,4042,1506
+Chromebrew,#5f5949,2458,1099
+ConanCenter,#55432b,5827,736
+CPAN,#2b9c3f,9699,9517
+MetaCPAN,#58ed89,11503,9199
+CRAN,#0d2702,22682,22445
+crates.io,#50a416,4979,4671
+CRUX 3.6,#7a9f20,2070,452
+CRUX 3.7,#edbab6,2374,1215
+CRUX 3.8,#1b1f08,2402,2155
+Cygwin,#164dbb,11523,3683
+Deb Multimedia Unstable,#396954,438,316
+Debian 11,#d80150,32129,7998
+Debian 12,#d80150,35113,10178
+Debian 12 Backports,#d80150,1018,172
+Debian 12 Backports sloppy,#d80150,4,2
+Debian 13,#d80150,38138,16327
+Debian 13 Backports,#d80150,129,65
+Debian 14,#d80150,38433,19085
+Debian Unstable,#d80150,40247,19858
+Debian Experimental,#d80150,1178,351
+deepin 20,#b49487,29950,6353
+deepin 23,#5aa976,11181,2841
+Devuan 4.0,#c74001,31290,7961
+Devuan Unstable,#c5a2df,39500,19758
+distri,#5dd3d8,541,31
+ELRepo el8,#2a1eab,190,5
+ELRepo el8 Testing,#c3c746,11,1
+ELRepo el9,#731a49,174,6
+ELRepo el9 Testing,#f45275,16,1
+Endless OS 4.0,#572032,116,3
+Endless OS master,#ee1231,100,6
+EPEL 6,#104bec,5978,1002
+EPEL 7,#5c4e96,7303,1593
+EPEL 8,#f562dd,5210,1659
+EPEL 9,#57ef37,7971,3443
+EPEL 10,#ce5625,6269,3904
+EuroLinux 8,#357d95,8070,678
+EuroLinux 9,#23092a,7422,888
+Exherbo,#f4067d,8604,3650
+F-Droid,#417588,10986,386
+Fedora 37,#294072,29763,8272
+Fedora 38,#294072,30232,8931
+Fedora 39,#294072,29890,9702
+Fedora 40,#294072,31164,11094
+Fedora 41,#294072,30595,12989
+Fedora 42,#294072,29200,14399
+Fedora Rawhide,#294072,23783,15634
+FreeBSD Ports,#f8bd97,37162,22096
+Gentoo,#fd50aa,29980,10998
+Gentoo overlay GURU,#0833e8,3029,995
+Gentoo overlay Pentoo,#320606,1160,323
+Gentoo Science overlay,#3e6a59,745,165
+glaucus,#4a4605,119,31
+GNU Elpa,#715082,478,466
+GNU Guix,#627484,29927,9060
+GoboLinux,#cae358,3775,841
+Hackage,#f66bb8,18399,18302
+HaikuPorts master,#728050,3893,1099
+Homebrew,#474193,11963,6422
+Homebrew Casks,#d6a8e7,2243,1654
+Homebrew tap Brewsci/bio,#dae89f,318,93
+HP-UX 11.31,#966c7c,2260,529
+IBM i,#e55874,315,30
+IzzyOnDroid,#fe4491,2549,363
+Kali Linux Bleeding Edge,#5a1f1d,84,2
+Kali Linux Rolling,#95e659,38801,18919
+KaOS,#865f75,2116,1745
+KaOS Build,#99f29d,54,47
+KDE neon Testing,#ea8b8b,929,18
+KDE neon Unstable,#13feb2,980,19
+KDE neon User,#e2aa26,1992,36
+KDE neon User LTS,#79cd19,541,23
+KISS Community - main,#f7148c,152,127
+KISS Community - community,#a15c95,394,148
+Libregamewiki,#269f00,651,249
+LiGurOS stable,#5e6670,32494,10429
+LiGurOS develop,#99c0d7,32525,11835
+LuaRocks,#59937e,7459,573
+MacPorts,#a04660,38065,16569
+Mageia 8,#12e19a,17033,3349
+Mageia 9,#c995b0,17504,4266
+Mageia cauldron,#d58be0,16944,8184
+Manjaro Stable,#f48f55,15827,10523
+Manjaro Testing,#1f1346,15865,11783
+Manjaro Unstable,#586bd7,15863,11851
+MELPA,#26bee7,5962,0
+MELPA Stable,#ca0898,3234,3178
+MidnightBSD mports,#04ed66,7141,2759
+MPR,#45feab,926,165
+MSYS2 clang64,#acd000,3450,2427
+MSYS2 clangarm64,#fa82fd,3363,2400
+MSYS2 mingw,#6d8331,3989,2827
+MSYS2 msys2,#4e00e0,748,524
+MSYS2 ucrt64,#3f7a69,3534,2483
+MX Linux MX-21,#728b48,708,67
+MX Linux MX-21 Testing,#652a7e,546,66
+MX Linux MX-23,#b70e44,449,68
+MX Linux MX-23 Testing,#f7442f,363,71
+nixpkgs stable 22.11,#4f73bd,95572,32670
+nixpkgs stable 23.05,#4f73bd,99994,35711
+nixpkgs stable 23.11,#4f73bd,107004,40851
+nixpkgs stable 24.05,#4f73bd,114973,48842
+nixpkgs stable 24.11,#4f73bd,120736,53933
+nixpkgs stable 25.05,#4f73bd,128154,64513
+nixpkgs unstable,#4f73bd,129995,83052
+NOIR Linux Main,#4c7c34,243,60
+Npackd Stable,#3a1e98,13043,182
+Npackd Stable64,#120f93,7748,80
+Npackd Unstable,#2b8b36,96,0
+opam,#2297f9,1191,962
+OpenBSD Ports,#891876,12177,6914
+openEuler 20.03-LTS-SP3,#18bd9c,3382,725
+openEuler 20.03-LTS-SP4,#919d1b,3418,735
+openEuler 22.03-LTS,#c4ad42,4234,1066
+openEuler 22.03-LTS-SP1,#a405a5,4266,1181
+openEuler 22.03-LTS-SP2,#ca0e55,4275,1188
+openEuler 22.03-LTS-SP3,#ab42b1,4307,1219
+openEuler 22.03-LTS-SP4,#580c72,4320,1221
+openEuler 23.03,#326384,4294,1243
+openEuler 23.09,#7d1c84,4617,1435
+openEuler 24.03-LTS,#9c9543,4876,1751
+openEuler 24.03-LTS-SP1,#cd2051,4905,1754
+openEuler 24.09,#23dc5d,4880,1912
+openEuler 25.03,#5937f1,4990,2238
+OpenIndiana packages,#a74006,6071,4032
+openmamba,#fd5169,5956,4629
+OpenMandriva 4.3,#075f75,12605,3228
+OpenMandriva 5.0,#f156ba,15311,3333
+OpenMandriva 6.0,#1d0a44,16177,4647
+OpenMandriva Rolling,#02f5d9,16176,4645
+OpenMandriva Cooker,#570f0f,16064,5828
+OpenPKG,#b97229,2386,691
+openSUSE Leap 15.4,#97b4d1,19608,3510
+openSUSE Leap 15.5,#0d90e3,20732,4212
+openSUSE Leap 15.6,#5b1cb0,20411,4658
+openSUSE Tumbleweed,#5bf012,16644,9811
+openSUSE Education Tumbleweed,#dd60fa,371,129
+openSUSE Emulators Tumbleweed,#078d37,143,57
+openSUSE games Tumbleweed,#20def3,928,510
+openSUSE graphics Tumbleweed,#9a1ea7,324,184
+openSUSE hardware:sdr Tumbleweed,#85dbee,181,72
+openSUSE multimedia:apps Tumbleweed,#7b3b31,389,223
+openSUSE multimedia:libs Tumbleweed,#7fe250,353,244
+openSUSE network Tumbleweed,#6503eb,266,143
+openSUSE science Tumbleweed,#da6270,1168,499
+openSUSE security Tumbleweed,#938865,295,157
+openSUSE server:irc Tumbleweed,#33ffac,43,27
+openSUSE shells Tumbleweed,#8b4d82,45,16
+Open VSX,#b9e6d6,354,296
+OpenWrt 23.05 x86_64,#4120a0,8976,909
+OpenWrt 24.10 x86_64,#96e1e9,9127,1180
+OS4Depot,#504257,946,280
+PackMan openSUSE Tumbleweed,#6ee548,639,264
+PackMan SLE 12,#7bc2cd,259,66
+PackMan SLE 15,#e20898,85,33
+pacstall,#2805fa,865,201
+Parabola,#bfea9d,15524,11085
+Parabola Testing,#2a6c01,29,2
+Pardus 21,#f4772f,32630,8015
+Pardus 23,#d31d86,365,15
+Parrot,#2ee02f,70726,20612
+PCLinuxOS,#3ae8ee,12198,3095
+Pisi Linux,#0e3ce2,3400,1568
+Pisi Linux Contrib,#7c744e,138,26
+pkgsrc current,#00175f,20109,11226
+PLD Linux,#6c408b,14171,5707
+postmarketOS 22.12,#18a24f,436,10
+postmarketOS 23.06,#d554fb,434,12
+postmarketOS 23.12,#6ac29d,487,8
+postmarketOS 24.06,#d25d55,1189,17
+postmarketOS 24.12,#723926,1247,22
+postmarketOS master,#f494c6,1583,56
+PTXdist,#5fc7b3,956,283
+PureOS amber,#cb7004,28585,6330
+PureOS byzantium,#f97445,30901,7903
+PureOS landing,#8c4f15,37686,16214
+PyPI,#b0b02d,27564,19661
+Raspbian Oldstable,#770eb3,35274,8820
+Raspbian Stable,#6464d2,39331,11200
+Raspbian Testing,#e63299,43680,17727
+Ravenports,#f8a053,3733,3370
+ReactOS rapps,#58b95d,198,58
+RebornOS,#59ff67,422,69
+Rocky Linux 8,#f6ebc7,4991,659
+Rocky Linux 9,#7dcd4b,3394,727
+Rosa 2021.1,#97c3d3,20016,5407
+Rosa 13,#b4c1ad,21087,7577
+RPM Fusion EL 6,#2de995,74,15
+RPM Fusion EL 7,#a6739d,142,24
+RPM Fusion EL 8,#c58faa,119,23
+RPM Fusion EL 9,#8a57ff,68,11
+RPM Fusion Fedora 39,#f92297,451,110
+RPM Fusion Fedora 40,#16f121,437,121
+RPM Fusion Fedora 41,#d0e95c,439,165
+RPM Fusion Fedora Rawhide,#ec9021,307,170
+RPM Sphere,#f6f97e,2874,1079
+RubyGems,#15938d,4443,4191
+SageMath stable,#3ac6c0,372,116
+SageMath development,#156a83,370,131
+Salix 14.2,#f0f291,735,52
+Scientific Linux 7.x,#151d89,12293,1110
+Software Collections,#cad081,416,41
+Scoop,#a1e30a,4471,2535
+Side Linux,#49532c,951,677
+Siduction,#4777fa,580,4
+Siduction Experimental,#aa1eb5,30,0
+SlackBuilds,#fce93a,9959,4429
+Slackware 14.2,#6c14f7,1599,308
+Slackware 15.0,#a22b02,1923,351
+Slackware current,#980320,1816,1076
+Slackware64 14.2,#d6d7fe,1586,306
+Slackware64 15.0,#2e9a90,1887,348
+Slackware64 current,#ddb20d,1815,1073
+Slackwarearm 14.2,#00da1f,1578,295
+Slackwarearm 15.0,#b7db19,1815,343
+SliTaz Cooking,#97e44a,5922,1650
+SliTaz Current,#37210f,1863,243
+SliTaz Next,#5b3349,12181,1979
+Solus,#a9b7c9,11649,5949
+Spack,#192307,9686,2913
+Stackage LTS Haskell,#627186,3413,3245
+Stackage Nightly,#eed336,3283,3232
+stal/IX,#a406c8,1380,1184
+stal/IX dev,#215855,1381,1190
+T2 SDE,#2ddf69,6176,5157
+Tails stable,#87aae6,3,1
+Tails devel,#ea6ad5,3,1
+Termux,#e00735,2675,2098
+Termux User Repository,#92c6da,298,129
+Terra 39,#fbb1b6,2351,413
+Terra 40,#84ac9a,2865,888
+Terra 41,#3fc0ce,3232,1526
+Terra rawhide,#7e6353,3428,1717
+Tin Can Linux,#373572,81,41
+Trisquel 10.0,#bcd150,32930,7067
+Trisquel 10.0 backports,#cf06fb,82,10
+Trisquel 11.0,#14ab52,36148,8850
+Trisquel 11.0 backports,#9aeca9,64,7
+UBI 8,#86a4f1,1623,157
+Ubuntu 14.04,#e95420,24127,3792
+Ubuntu 14.04 Backports,#e95420,109,2
+Ubuntu 16.04,#e95420,27276,4739
+Ubuntu 16.04 Backports,#e95420,25,0
+Ubuntu 18.04,#e95420,30870,5911
+Ubuntu 18.04 Backports,#e95420,18,0
+Ubuntu 20.04,#e95420,32759,7101
+Ubuntu 20.04 Backports,#e95420,21,1
+Ubuntu 22.04,#e95420,36192,8890
+Ubuntu 22.04 Backports,#e95420,21,1
+Ubuntu 24.04,#e95420,38934,11984
+Ubuntu 24.04 Backports,#e95420,18,1
+Ubuntu 25.04,#e95420,39939,15724
+Ubuntu 25.04 Backports,#e95420,3,0
+Ubuntu 25.10,#e95420,39743,17734
+Ubuntu 25.10 Proposed,#e95420,243,70
+Vcpkg,#b3633a,2698,1218
+Void Linux x86_64,#cce6b9,14332,7324
+WakeMeOps,#a47399,3986,151
+Wikidata,#d0de02,5553,3022
+YACP,#668578,3724,2216
