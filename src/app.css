@@ -1,3 +1,8 @@
+:root {
+    --nix-dark-blue: #4f73bd;
+    --nix-light-blue: #7eb9e3;
+}
+
 #app {
     width: 100%;
     height: 100vh;

@@ -11,6 +11,11 @@
 
     import Title from './slides/Title.svelte'
     import PackageGraph from './slides/PackageGraph.svelte'
+    import WhatIsNix from './slides/WhatIsNix.svelte'
+    import AboutMe from './slides/AboutMe.svelte'
+    import History from './slides/History.svelte'
+    import CoreIdea from './slides/CoreIdea.svelte'
+    import TheProblem from './slides/TheProblem.svelte'
 
     onMount(async () => {
         await tick()
@@ -28,6 +33,11 @@
 <div class="reveal">
     <div class="slides">
         <Title />
+        <AboutMe />
+        <WhatIsNix />
+        <TheProblem />
+        <CoreIdea />
+        <History />
         <PackageGraph />
     </div>
 </div>
