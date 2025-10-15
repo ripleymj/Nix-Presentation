@@ -16,7 +16,6 @@
     import History from './slides/History.svelte'
     import CoreIdea from './slides/CoreIdea.svelte'
     import TheProblem from './slides/TheProblem.svelte'
-    import Flake from './slides/Flake.svelte'
     import Channels from './slides/Channels.svelte'
     import TitleNixOS from './slides/TitleNixOS.svelte'
     import NixOSInstall from './slides/NixOSInstall.svelte'
@@ -31,6 +30,7 @@
     import Devenv from './slides/Devenv.svelte'
     import Configuration from './slides/Configuration.svelte'
     import Neovim from './slides/Neovim.svelte'
+    import NixOSRebuild from './slides/NixOSRebuild.svelte'
 
     onMount(async () => {
         await tick()
@@ -61,6 +61,7 @@
         <TitleNixOS />
         <NixOSInstall />
         <Configuration />
+        <NixOSRebuild />
         <TitleCommunityProjects />
         <HomeManager />
         <DesktopManagement />
