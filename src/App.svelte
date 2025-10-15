@@ -1,7 +1,7 @@
 <script lang="ts">
     import 'reveal.js/dist/reveal.css'
     import 'reveal.js/dist/theme/black.css'
-    import 'reveal.js/plugin/highlight/monokai.css'
+    import './github-dark-dimmed.css'
 
     import Reveal from 'reveal.js'
     import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js'
@@ -16,6 +16,17 @@
     import History from './slides/History.svelte'
     import CoreIdea from './slides/CoreIdea.svelte'
     import TheProblem from './slides/TheProblem.svelte'
+    import Flake from './slides/Flake.svelte'
+    import Channels from './slides/Channels.svelte'
+    import TitleNixOS from './slides/TitleNixOS.svelte'
+    import NixOSInstall from './slides/NixOSInstall.svelte'
+    import TitleNixpkgs from './slides/TitleNixpkgs.svelte'
+    import TitleNixLanguage from './slides/TitleNixLanguage.svelte'
+    import NixLanguage from './slides/NixLanguage.svelte'
+    import TitleCommunityProjects from './slides/TitleCommunityProjects.svelte'
+    import NixDarwin from './slides/NixDarwin.svelte'
+    import HomeManager from './slides/HomeManager.svelte'
+    import DesktopManagement from './slides/DesktopManagement.svelte'
 
     onMount(async () => {
         await tick()
@@ -38,6 +49,17 @@
         <TheProblem />
         <CoreIdea />
         <History />
+        <TitleNixLanguage />
+        <NixLanguage />
+        <TitleNixpkgs />
         <PackageGraph />
+        <Channels />
+        <TitleNixOS />
+        <NixOSInstall />
+        <Flake />
+        <TitleCommunityProjects />
+        <HomeManager />
+        <DesktopManagement />
+        <NixDarwin />
     </div>
 </div>

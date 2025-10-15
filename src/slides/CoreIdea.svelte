@@ -18,9 +18,13 @@
     </section>
     <section>
         <div id="reproducible">
-            <p style="text-align: left;">
-                Nix is <strong>Purely Functional</strong>
-            </p>
+            <div style="text-align: left;">
+                <span>Nix is <strong>Purely Functional</strong></span>
+                <p class="description">
+                    Given the same inputs, Nix will always produce the same output, regardless of
+                    the state of the rest of the system.
+                </p>
+            </div>
             <div>
                 <img src={Reproducible} alt="Reproducible" />
                 <strong>Reproducible</strong>
@@ -33,14 +37,24 @@
                 <img src={Declartive} alt="Declartive" />
                 <strong>Declartive</strong>
             </div>
-            <p style="text-align: right;">Packages & Systems are <strong>Declared</strong></p>
+            <div style="text-align: right;">
+                <span>Packages & Systems are <strong>Declared</strong></span>
+                <p class="description">
+                    Declare exact dependencies and let nix take care of the build step. Allows for
+                    easy sharing of developer environments.
+                </p>
+            </div>
         </div>
     </section>
     <section>
         <div id="reliable">
-            <p style="text-align: left;">
-                <strong>Safe Upgrades</strong> and <strong>Rollbacks</strong>
-            </p>
+            <div style="text-align: left;">
+                <span><strong>Safe Upgrades</strong> and <strong>Rollbacks</strong></span>
+                <p class="description">
+                    Nix ensures that upgrading a package will never break other packages and allows
+                    you to rollback to previous versions.
+                </p>
+            </div>
             <div>
                 <img src={Reliable} alt="Reliable" />
                 <strong>Reliable</strong>
@@ -62,6 +76,7 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 2fr 1fr;
+        align-items: center;
         gap: 40px;
     }
 
@@ -69,6 +84,12 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 2fr;
+        align-items: center;
         gap: 40px;
+    }
+
+    .description {
+        color: #aaaaaa;
+        font-size: 24pt;
     }
 </style>
