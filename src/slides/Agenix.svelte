@@ -1,28 +1,29 @@
 <script lang="ts">
-    import HomeIcon from '/home-icon.png'
+    import Age from '/age.svg'
 </script>
 
 <section>
-    <div id="intro">
+    <div id="agenix">
         <div style="text-align: left;">
-            <strong>Home Manager</strong>
+            <strong>Agenix</strong>
             <p class="description">
-                Nix module that extends user configuraiton capabilities. Allows for easy management
-                of per-user packages and dotfiles.
+                Agenix allos you to store encypted secrets directly in your Nix configuration.
+                Safely share and deploy your configurations
             </p>
         </div>
-        <img src={HomeIcon} alt="nix-darwin-logo" />
+        <img src={Age} alt="age" />
     </div>
 </section>
 
 <style>
-    #intro {
+    #agenix {
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 2fr 1fr;
-        gap: 40px;
         align-items: center;
+        gap: 40px;
     }
+
     .description {
         color: #aaaaaa;
         font-size: 24pt;

@@ -27,6 +27,10 @@
     import NixDarwin from './slides/NixDarwin.svelte'
     import HomeManager from './slides/HomeManager.svelte'
     import DesktopManagement from './slides/DesktopManagement.svelte'
+    import Agenix from './slides/Agenix.svelte'
+    import Devenv from './slides/Devenv.svelte'
+    import Configuration from './slides/Configuration.svelte'
+    import Neovim from './slides/Neovim.svelte'
 
     onMount(async () => {
         await tick()
@@ -46,9 +50,9 @@
         <Title />
         <AboutMe />
         <WhatIsNix />
+        <History />
         <TheProblem />
         <CoreIdea />
-        <History />
         <TitleNixLanguage />
         <NixLanguage />
         <TitleNixpkgs />
@@ -56,10 +60,13 @@
         <Channels />
         <TitleNixOS />
         <NixOSInstall />
-        <Flake />
+        <Configuration />
         <TitleCommunityProjects />
         <HomeManager />
         <DesktopManagement />
         <NixDarwin />
+        <Agenix />
+        <Devenv />
+        <Neovim />
     </div>
 </div>

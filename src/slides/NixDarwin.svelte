@@ -7,7 +7,7 @@
     <section>
         <div id="intro">
             <div style="text-align: left;">
-                <h3>Nix Darwin</h3>
+                <strong>Nix Darwin</strong>
                 <p class="description">
                     Nix Darwin allows you to use Nix's declarative system to manage your MacOS.
                     Built around nixpkgs, similar to NixOS.
@@ -27,6 +27,7 @@
         grid-template-rows: 1fr;
         grid-template-columns: 2fr 1fr;
         gap: 40px;
+        align-items: center;
     }
     .description {
         color: #aaaaaa;

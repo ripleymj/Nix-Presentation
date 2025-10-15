@@ -1,17 +1,18 @@
 <script lang="ts">
-    import HomeIcon from '/home-icon.png'
+    import NVF from '/nvf.svg'
 </script>
 
 <section>
     <div id="intro">
         <div style="text-align: left;">
-            <strong>Home Manager</strong>
+            <strong>Neovim</strong>
             <p class="description">
-                Nix module that extends user configuraiton capabilities. Allows for easy management
-                of per-user packages and dotfiles.
+                Projects like Nixvim, NVF, and nixCats allow you to integrate your neovim
+                configuration into your Nix config. With Nixvim and NVF write your entire neovim
+                config using nix, or use nixCats if you want to stick with lua.
             </p>
         </div>
-        <img src={HomeIcon} alt="nix-darwin-logo" />
+        <img src={NVF} alt="nvf-log" />
     </div>
 </section>
 

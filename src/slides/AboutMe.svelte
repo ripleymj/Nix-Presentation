@@ -1,17 +1,32 @@
+<script lang="ts">
+    import GithubProfile from '/github-profile.png'
+</script>
+
 <section>
-    <h3>About Me</h3>
-    <ul>
-        <li>Senior Computer Science Major / CIS Minor</li>
-        <li>The Nix guy or maybe the CD Guy</li>
-    </ul>
+    <div id="about-me">
+        <div style="text-align: left;">
+            <strong>About Me</strong>
+            <ul class="description">
+                <li>Senior Computer Science Major / CIS Minor</li>
+                <li>The Nix guy or maybe the CD Guy</li>
+                <li>Has a vendetta against YouTube's backend developers</li>
+            </ul>
+        </div>
+        <img src={GithubProfile} alt="age" />
+    </div>
 </section>
 
 <style>
-    section {
-        text-align: left;
+    #about-me {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        gap: 40px;
     }
 
-    ul {
+    .description {
+        color: #aaaaaa;
         font-size: 20pt;
     }
 </style>
