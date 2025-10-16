@@ -38,10 +38,11 @@ jobs:
         run: |
           npm run build
           ls -lR
+          ls -lR ${{ github.event.repository.name }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: 'build/'
+          path: '/${{ github.event.repository.name }}/build/'
   deploy:
     runs-on: ubuntu-latest
     environment:
