@@ -35,13 +35,11 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-        run: |
-          npm run build
-          ls -lR
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: 'dist/'
+          path: 'build/'
   deploy:
     runs-on: ubuntu-latest
     environment:
