@@ -37,6 +37,7 @@ jobs:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           npm run build
+          ls -lR
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
