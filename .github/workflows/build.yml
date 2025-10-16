@@ -30,6 +30,8 @@ jobs:
         run: nix-env --install --attr devenv -f https://github.com/NixOS/nixpkgs/tarball/nixpkgs-unstable
       - name: Activate devenv shell
         run: devenv shell
+      - name: Install dependencies
+        run: npm i
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
