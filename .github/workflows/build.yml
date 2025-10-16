@@ -30,12 +30,8 @@ jobs:
         run: nix-env --install --attr devenv -f https://github.com/NixOS/nixpkgs/tarball/nixpkgs-unstable
       - name: Activate devenv shell
         run: devenv shell
-      - name: Build site
-        run: nix build .#pages --print-build-logs
-      - name: Adjust permissions
-        run: |
-          chown -R `id -u`:`id -g` ./result
-          chmod -R a+rwx ./result
+      - name: Devenv test
+        run: devenv test
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
