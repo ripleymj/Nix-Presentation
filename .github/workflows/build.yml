@@ -30,12 +30,15 @@ jobs:
         run: nix-env --install --attr devenv -f https://github.com/NixOS/nixpkgs/tarball/nixpkgs-unstable
       - name: Activate devenv shell
         run: devenv shell
-      - name: Devenv test
-        run: devenv test
+      - name: build
+        env:
+          BASE_PATH: '/${{ github.event.repository.name }}'
+        run: |
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./result
+          path: 'build/'
   deploy:
     runs-on: ubuntu-latest
     environment:
